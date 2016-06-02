@@ -4,14 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>主页</title>
+<title>登入成功</title>
 </head>
 <body>
-	<p>Hello World, this is carter project.</p>
-	<form action="login" method="post">
-		username:<input name="username" type="text"/><br>
-		password:<input name="password" type="password"/><br>
-		<input value="sign in" type="submit"/>
-	</form>
+登入成功
 </body>
 </html>
