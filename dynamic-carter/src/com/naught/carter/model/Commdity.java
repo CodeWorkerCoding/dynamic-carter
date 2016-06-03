@@ -1,5 +1,8 @@
 package com.naught.carter.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.naught.carter.util.UUIdUtil;
 
 /**
@@ -10,6 +13,17 @@ public class Commdity {
 	private String id;
 	private String commdityName;
 	private double price;
+	
+	public static List<Commdity> commdities = new ArrayList<Commdity>();
+	
+	static {
+		commdities.add(new Commdity("大学语文", 12.3d));
+		commdities.add(new Commdity("软件工程", 45.3d));
+		commdities.add(new Commdity("Red Hat Linux 管理", 82.3d));
+		commdities.add(new Commdity("大学英语", 86.3d));
+		commdities.add(new Commdity("高等数学", 70.3d));
+	} 
+	
 	public Commdity() {
 	}
 	
