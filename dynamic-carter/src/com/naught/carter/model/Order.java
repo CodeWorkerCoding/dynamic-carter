@@ -1,7 +1,7 @@
 package com.naught.carter.model;
 
 /**
- * ¶©µ¥Ä£ĞÍ
+ * è®¢å•æ¨¡å‹
  */
 public class Order {
 	

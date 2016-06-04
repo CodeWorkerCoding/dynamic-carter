@@ -6,7 +6,7 @@ import java.util.List;
 import com.naught.carter.util.UUIdUtil;
 
 /**
- * ÉÌÆ·Ä£ĞÍ
+ * å•†å“æ¨¡å‹
  */
 public class Commdity {
 	
@@ -17,11 +17,11 @@ public class Commdity {
 	public static List<Commdity> commdities = new ArrayList<Commdity>();
 	
 	static {
-		commdities.add(new Commdity("´óÑ§ÓïÎÄ", 12.3d));
-		commdities.add(new Commdity("Èí¼ş¹¤³Ì", 45.3d));
-		commdities.add(new Commdity("Red Hat Linux ¹ÜÀí", 82.3d));
-		commdities.add(new Commdity("´óÑ§Ó¢Óï", 86.3d));
-		commdities.add(new Commdity("¸ßµÈÊıÑ§", 70.3d));
+		commdities.add(new Commdity("JAVA ç¨‹åºè®¾è®¡", 12.3d));
+		commdities.add(new Commdity("å¤§å­¦è¯­æ–‡", 45.3d));
+		commdities.add(new Commdity("Red Hat Linux ç®¡ç†å¼€å‘", 82.3d));
+		commdities.add(new Commdity("å¤§å­¦è‹±è¯­", 86.3d));
+		commdities.add(new Commdity("é«˜ç­‰æ•°å­¦", 70.3d));
 	} 
 	
 	public Commdity() {

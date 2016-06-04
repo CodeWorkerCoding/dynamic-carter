@@ -3,7 +3,7 @@ package com.naught.carter.model;
 import com.naught.carter.util.UUIdUtil;
 
 /**
- * 用户模型
+ * 鐢ㄦ埛妯″瀷
  */
 public class User {
 	
